@@ -1,0 +1,33 @@
+.content__words {
+  padding: 20px;
+  margin: auto;
+  max-width: 100%;
+  border: none;
+
+  box-shadow: 0 0 100px 100px lightgray;
+
+  img {
+    max-width: 100%;
+  }
+
+  & > p {
+    padding: none;
+    line-height: 1rem;
+
+    font-weight: 300;
+    
+    font-style: oblique;
+    letter-spacing: 0.2rem;
+    font-size: 20px;
+  }
+  & > div {
+    border: none;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Papyrus;
+    background: sandybrown;
+    box-shadow: 0 0 10px 10px lightcyan;
+    max-width: 100%;
+  }
+}
